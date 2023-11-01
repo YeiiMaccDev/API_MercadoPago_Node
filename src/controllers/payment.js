@@ -10,10 +10,10 @@ export const createOrder = async (req, res) => {
     const result = await mercadopage.preferences.create({
       items: [
         {
-          title: "Laptop",
+          title: "Pago pedido productos en ModaSport",
           unit_price: 95000,
           currency_id: "COP",
-          quantity: 2,
+          quantity: 1,
         },
       ],
       notification_url: `${HOST}/webhook`,
