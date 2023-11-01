@@ -11,7 +11,7 @@ export const createOrder = async (req, res) => {
       items: [
         {
           title: "Pago pedido productos en ModaSport",
-          unit_price: 95000,
+          unit_price: 5000,
           currency_id: "COP",
           quantity: 1,
         },
