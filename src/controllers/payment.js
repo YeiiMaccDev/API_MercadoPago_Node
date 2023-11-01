@@ -11,7 +11,7 @@ export const createOrder = async (req, res) => {
       items: [
         {
           title: "Laptop",
-          unit_price: 500,
+          unit_price: 2500,
           currency_id: "COP",
           quantity: 2,
         },
